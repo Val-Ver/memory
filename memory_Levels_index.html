@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Memory</title>
+
+  <link rel='stylesheet' href="memory_Levels_style.css">
+</head>
+
+<body>
+	<div class="memory-container">
+		<div class="title-container">
+   			<h1 class="string">Memory</h1>
+			<h1 class="string">Level: <span class="Level"></span></h1>
+		</div>
+  		<div id="memoryBoard" class="gameBoard"></div>
+		<div class="score-container">
+			<div id="memoryScore" class="scoreBoard">
+				<div id="BestScore" class="scoreBestBoard">
+					<p class="string">Best Score: <span class="scoreAll"></span></p>
+					<p class="string">Best Score Level: <span class="scoreAllLevel"></span></p>
+				</div>
+				<div id="CurrentScore" class="scoreCurrentBoard">
+					<p class="string">Score: <span class="score"></span></p>
+					<p class="string">Score Level: <span class="scoreLevel"></span></p>
+				</div>
+			</div>
+			<button id="startButton" class="start-button">PLAY AGAIN</button>
+		</div>
+	</div>
+  <script src="memory_Game_Levels.js"></script>  
+</body>
+</html>
